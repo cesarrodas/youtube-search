@@ -1,12 +1,18 @@
+import Header from './components/Header';
+import SearchField from './components/Search';
+
 import './App.css';
 
 //https://www.cesarrodas.net/cloud/youtube?find=cats
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello Cesar</h1>
-    </div>
+    <> 
+      <div className="backdrop">
+        <Header />
+        <SearchField />
+      </div>
+    </>
   );
 }
 

@@ -1,0 +1,32 @@
+.userInput {
+  height: auto;
+  justify-self: center;
+  align-self: center;
+  width: 40%;
+  display: flex;
+  margin-top: 14%;
+  position: relative;
+}
+
+.userInput input {
+  flex-grow: 1;
+  padding: 10px 0 10px 38px;
+}
+
+.search-button {
+  width: 24px;
+  height: 24px;
+}
+
+.search-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.search-icon-inner{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 24px;
+  height: 24px;
+}
